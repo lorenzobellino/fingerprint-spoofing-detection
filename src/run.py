@@ -8,11 +8,11 @@ logger = logging.getLogger("FSD")
 
 def run_experiment(args, logger):
     if args.step == 1:
-        logger.debug("OK")
         main_module = "LDA.main"
     elif args.step == 2:
-        logger.debug("ELSE")
         main_module = "PCA.main"
+    elif args.step == 3:
+        main_module = "MGD.main"
     else:
         logger.error("Invalid step")
         raise NotImplementedError
@@ -33,10 +33,10 @@ if __name__ == '__main__':
         "--step",
         type=int,
         help="Step to run:\n"
-        + "\t1: LDA\n"
-        + "\t2: PCA\n"
-        + "\t3: LGA\n"
-        + "\t4: SVM\n",
+        + "\t1: LDA - Linear Discriminant Analysis\n"
+        + "\t2: PCA - Principal Component Analysis\n"
+        + "\t3: MGD - Multivariate Gaussian Density\n"
+        + "\t4: MLE - Maximum Likelihood Estimate\n",
         required=True,
     )
     parser.add_argument(

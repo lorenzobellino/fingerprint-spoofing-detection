@@ -25,3 +25,11 @@ def plot(proj: np.array, c: np.array, filename: str) -> None:
     plt.legend()
     # plt.show()
     plt.savefig(filename)
+
+
+def vcol(v) -> np.array:
+    return v.reshape(v.size, 1)
+
+
+def vrow(v) -> np.array:
+    return v.reshape(1, v.size)
