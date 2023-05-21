@@ -2,12 +2,12 @@
 from Utils.utils import load, plot
 import numpy as np
 
-def LDA(logger, m: int = 3) -> None:
+def LDA(logger, m: int) -> None:
     plotname = f"plots/LDA_v2_matrix_{m}.png"
     logger.info(
-        "\n##########################################################\n#                                                        #\n#                    COMPUTING LDA v2                    #\n#                                                        #\n##########################################################"
+        "\n##########################################################\n#                                                        #\n#                    COMPUTING LDA                        #\n#                                                        #\n##########################################################"
     )
-    d, c = load()
+    d, c = load(logger)
     logger.info("Separating the dataset in each class")
     d0 = d[:, c == 0]
     d1 = d[:, c == 1]
@@ -30,10 +30,10 @@ def LDA(logger, m: int = 3) -> None:
         )
         / d.shape[1]
     )
-    logger.info(f"\n-------------------------Sb------------------------\n{Sb}")
+    logger.debug(f"\n-------------------------Sb------------------------\n{Sb}")
     logger.info("Computing the covariance matrix within class (Sw)")
     Sw = sum(c * cov for c, cov in zip(nc, covariances)) / d.shape[1]
-    logger.info(f"\n-------------------------Sw------------------------\n{Sw}")
+    logger.debug(f"\n-------------------------Sw------------------------\n{Sw}")
     logger.info("Solving the generalized eigenvalue problem by joint diagonalization")
     eigvecs, eigval, _ = np.linalg.svd(Sw)
 
@@ -41,19 +41,19 @@ def LDA(logger, m: int = 3) -> None:
 
     logger.info("Computing the trasformed between class covariance (Sbt)")
     Sbt = P1 * Sb * P1.T
-    logger.info(f"\n-------------------------Sbt------------------------\n{Sbt}")
+    logger.debug(f"\n-------------------------Sbt------------------------\n{Sbt}")
     logger.info("Calculating the eigenvectors of Sbt")
     eigvecs, _, _ = np.linalg.svd(Sbt)
-    logger.info(
+    logger.debug(
         f"\n-------------------------eigvecs------------------------\n{eigvecs}"
     )
     logger.info(f"Retrieving m={m} largest eigenvectors ... ")
     # P2 = eigvecs[:, 0:m]
     P2 = eigvecs
-    logger.info(f"\n--------------------------P-------------------------\n{P2}")
+    logger.debug(f"\n--------------------------P-------------------------\n{P2}")
     logger.info("Calculating the LDA amtrix W")
     W = P1.T * P2
-    logger.info(f"\n--------------------------W-------------------------\n{W}")
+    logger.debug(f"\n--------------------------W-------------------------\n{W}")
     proj = np.dot(W.T, d)
     logger.info("Plotting the data")
     plot(proj, c, plotname)

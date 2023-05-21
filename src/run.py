@@ -9,7 +9,7 @@ logger = logging.getLogger("FSD")
 def run_experiment(args, logger):
     if args.step == 1:
         logger.debug("OK")
-        main_module = "LGA.main"
+        main_module = "LDA.main"
     elif args.step == 2:
         logger.debug("ELSE")
         main_module = "PCA.main"
@@ -33,9 +33,9 @@ if __name__ == '__main__':
         "--step",
         type=int,
         help="Step to run:\n"
-        + "\t1: LGA\n"
+        + "\t1: LDA\n"
         + "\t2: PCA\n"
-        + "\t3: LDA\n"
+        + "\t3: LGA\n"
         + "\t4: SVM\n",
         required=True,
     )
@@ -43,6 +43,7 @@ if __name__ == '__main__':
         "-m",
         type=int,
         help="Number of eigenvectors to use for PCA and LDA",
+        default=4,
         required=False,
     )
     parser.add_argument("-d", "--debug", action="store_true", help="Enable debug mode")

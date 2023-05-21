@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def load():
-    print("loading ...")
+def load(logger):
+    logger.info("Loading the dataset")
     d = []
     c = []
     with open("data/Train.txt", "r") as f:
