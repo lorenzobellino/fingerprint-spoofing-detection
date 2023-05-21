@@ -39,6 +39,12 @@ if __name__ == '__main__':
         + "\t4: SVM\n",
         required=True,
     )
+    parser.add_argument(
+        "-m",
+        type=int,
+        help="Number of eigenvectors to use for PCA and LDA",
+        required=False,
+    )
     parser.add_argument("-d", "--debug", action="store_true", help="Enable debug mode")
 
     args = parser.parse_args()
