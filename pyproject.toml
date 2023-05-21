@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fingerprint-spoofing-detection"
+version = "0.1.0"
+description = "Testing multiple models in order to detect fingerprint spoofing"
+authors = ["lorenzobellino <lor.bellino@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "fingerprint_spoofing_detection"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.24.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
