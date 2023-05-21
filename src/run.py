@@ -13,6 +13,8 @@ def run_experiment(args, logger):
         main_module = "PCA.main"
     elif args.step == 3:
         main_module = "MGD.main"
+    elif args.step == 4:
+        main_module = "MLE.main"
     else:
         logger.error("Invalid step")
         raise NotImplementedError

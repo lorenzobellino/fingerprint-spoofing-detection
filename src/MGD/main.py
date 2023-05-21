@@ -20,6 +20,7 @@ def logpdf_GAU_ND_fast(X, mu, C) -> np.array:
     return lpdf
 
 def MGD(logger):
+    raise NotImplementedError
     """Compute the multivariate Gaussian Density"""
     logger.info("Calculating the multivariate Gaussian density and plotting ...")
     plt.figure()
