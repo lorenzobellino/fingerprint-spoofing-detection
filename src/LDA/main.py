@@ -1,6 +1,7 @@
 
-from Utils.utils import load, plot
+from Utils.utils import load, plot, plot_hist
 import numpy as np
+from scipy import linalg
 
 def LDA(logger, m: int) -> None:
     plotname = f"plots/LDA_v2_matrix_{m}.png"
@@ -33,30 +34,25 @@ def LDA(logger, m: int) -> None:
     logger.debug(f"\n-------------------------Sb------------------------\n{Sb}")
     logger.info("Computing the covariance matrix within class (Sw)")
     Sw = sum(c * cov for c, cov in zip(nc, covariances)) / d.shape[1]
-    logger.debug(f"\n-------------------------Sw------------------------\n{Sw}")
+    
+    logger.info(f"\n-------------------------Sw------------------------\n{Sw}")
     logger.info("Solving the generalized eigenvalue problem by joint diagonalization")
     eigvecs, eigval, _ = np.linalg.svd(Sw)
-
-    P1 = np.dot(np.dot(eigvecs, np.diag(1.0 / (eigval**0.5))), eigvecs.T)
-
-    logger.info("Computing the trasformed between class covariance (Sbt)")
-    Sbt = P1 * Sb * P1.T
-    logger.debug(f"\n-------------------------Sbt------------------------\n{Sbt}")
-    logger.info("Calculating the eigenvectors of Sbt")
-    eigvecs, _, _ = np.linalg.svd(Sbt)
-    logger.debug(
-        f"\n-------------------------eigvecs------------------------\n{eigvecs}"
-    )
-    logger.info(f"Retrieving m={m} largest eigenvectors ... ")
-    # P2 = eigvecs[:, 0:m]
-    P2 = eigvecs
-    logger.debug(f"\n--------------------------P-------------------------\n{P2}")
-    logger.info("Calculating the LDA amtrix W")
-    W = P1.T * P2
-    logger.debug(f"\n--------------------------W-------------------------\n{W}")
+    logger.info(f"\n-------------------------Sw------------------------\n{Sw}")
+    logger.info("Solving the generalized eigenvalue problem")
+    # cannot use np.linalg.eigh
+    # because it does not support generalized eigenvalue problem
+    eigvals, eigvecs = linalg.eigh(Sb, Sw)
+    U = eigvecs[:, ::-1]
+    logger.info(f"Retrieving {m} largest eigenvectors")
+    W = U[:, 0:m]
+    logger.info(f"\n--------------------------W-------------------------\n{W}")
+    logger.info(f"Projecting data onto {m} eigenvectors")
     proj = np.dot(W.T, d)
     logger.info("Plotting the data")
-    plot(proj, c, plotname)
+    plot_hist(proj, c, f"plots/LDA_v2_hist_{m}.png")
+
+    
 
 
 
