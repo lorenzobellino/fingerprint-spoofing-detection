@@ -1,0 +1,40 @@
+INFO - Starting main function on logistic regression
+INFO - Loading the dataset
+INFO - Binary Regression
+DEBUG - piT = 0.1
+DEBUG - l = 1e-06
+DEBUG - pca = 6
+Traceback (most recent call last):
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/run.py", line 114, in <module>
+    run_experiment(args, logger)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/run.py", line 40, in run_experiment
+    main(args, logger)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/main.py", line 127, in main
+    binary_logaristic_regression(D,L,args,logger)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/main.py", line 87, in binary_logaristic_regression
+    min_DCF, scores, labels = KFCV(DTR, LTR,logObj,point,args,logger)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/GaussianClassifiers/main.py", line 456, in KFCV
+    classifier.train(DTR, LTR)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/models.py", line 162, in train
+    params,f_min,_ = sc.optimize.fmin_l_bfgs_b(self.logreg_obj, x0,approx_grad=True)
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_lbfgsb_py.py", line 199, in fmin_l_bfgs_b
+    res = _minimize_lbfgsb(fun, x0, args=args, jac=jac, bounds=bounds,
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_lbfgsb_py.py", line 365, in _minimize_lbfgsb
+    f, g = func_and_grad(x)
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 286, in fun_and_grad
+    self._update_grad()
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 256, in _update_grad
+    self._update_grad_impl()
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 173, in update_grad
+    self.g = approx_derivative(fun_wrapped, self.x, f0=self.f,
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_numdiff.py", line 505, in approx_derivative
+    return _dense_difference(fun_wrapped, x0, f0, h,
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_numdiff.py", line 576, in _dense_difference
+    df = fun(x) - f0
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_numdiff.py", line 456, in fun_wrapped
+    f = np.atleast_1d(fun(x, *args, **kwargs))
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 137, in fun_wrapped
+    fx = fun(np.copy(x), *args)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/models.py", line 146, in logreg_obj
+    loss_c0 += np.logaddexp(0,-zi * (np.dot(w.T,self.DTR[:,i:i+1]) + b))
+KeyboardInterrupt

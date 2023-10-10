@@ -1,0 +1,312 @@
+INFO - Starting main function on logistic regression
+INFO - Loading the dataset
+INFO - Binary Regression
+DEBUG - piT = 0.1
+DEBUG - l = 9.999999999999999e-05
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 9.999999999999999e-05 , piT = 0.1: 0.4661885245901639 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 9.999999999999999e-05 , piT = 0.1: 0.4711885245901639 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 9.999999999999999e-05 , piT = 0.1: 0.4658811475409836 
+DEBUG - l = 0.001
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.001 , piT = 0.1: 0.4661885245901639 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.001 , piT = 0.1: 0.46868852459016397 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.001 , piT = 0.1: 0.4658811475409836 
+DEBUG - l = 0.01
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.01 , piT = 0.1: 0.4661885245901639 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.01 , piT = 0.1: 0.4674385245901639 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.01 , piT = 0.1: 0.46493852459016394 
+DEBUG - l = 0.09999999999999999
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.09999999999999999 , piT = 0.1: 0.46649590163934423 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.09999999999999999 , piT = 0.1: 0.46649590163934423 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.09999999999999999 , piT = 0.1: 0.46149590163934423 
+DEBUG - l = 1.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 1.0 , piT = 0.1: 0.4868032786885246 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 1.0 , piT = 0.1: 0.4871106557377049 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 1.0 , piT = 0.1: 0.4805532786885246 
+DEBUG - l = 10.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 10.0 , piT = 0.1: 0.5398975409836065 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 10.0 , piT = 0.1: 0.5489549180327868 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 10.0 , piT = 0.1: 0.5383401639344263 
+DEBUG - l = 100.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 100.0 , piT = 0.1: 0.583032786885246 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 100.0 , piT = 0.1: 0.583032786885246 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 100.0 , piT = 0.1: 0.578032786885246 
+INFO - plotting
+DEBUG - piT = 0.5
+DEBUG - l = 9.999999999999999e-05
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 9.999999999999999e-05 , piT = 0.5: 0.48428278688524595 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 9.999999999999999e-05 , piT = 0.5: 0.4852459016393443 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 9.999999999999999e-05 , piT = 0.5: 0.47149590163934424 
+DEBUG - l = 0.001
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.001 , piT = 0.5: 0.48428278688524595 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.001 , piT = 0.5: 0.4852459016393443 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.001 , piT = 0.5: 0.47149590163934424 
+DEBUG - l = 0.01
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.01 , piT = 0.5: 0.4836680327868852 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.01 , piT = 0.5: 0.48649590163934425 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.01 , piT = 0.5: 0.47024590163934427 
+DEBUG - l = 0.09999999999999999
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.09999999999999999 , piT = 0.5: 0.47616803278688524 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.09999999999999999 , piT = 0.5: 0.4811885245901639 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.09999999999999999 , piT = 0.5: 0.4646311475409836 
+DEBUG - l = 1.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 1.0 , piT = 0.5: 0.49524590163934423 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 1.0 , piT = 0.5: 0.4896106557377049 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 1.0 , piT = 0.5: 0.4883811475409836 
+DEBUG - l = 10.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 10.0 , piT = 0.5: 0.5386270491803278 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 10.0 , piT = 0.5: 0.5389344262295082 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 10.0 , piT = 0.5: 0.5398770491803279 
+DEBUG - l = 100.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 100.0 , piT = 0.5: 0.5729918032786886 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 100.0 , piT = 0.5: 0.5729918032786886 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 100.0 , piT = 0.5: 0.5752254098360656 
+INFO - plotting
+DEBUG - piT = 0.9
+DEBUG - l = 9.999999999999999e-05
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 9.999999999999999e-05 , piT = 0.9: 0.512110655737705 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 9.999999999999999e-05 , piT = 0.9: 0.5149180327868852 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 9.999999999999999e-05 , piT = 0.9: 0.504938524590164 
+DEBUG - l = 0.001
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.001 , piT = 0.9: 0.512110655737705 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.001 , piT = 0.9: 0.5149180327868852 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.001 , piT = 0.9: 0.5052459016393442 
+DEBUG - l = 0.01
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.01 , piT = 0.9: 0.5139754098360656 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.01 , piT = 0.9: 0.5111065573770492 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.01 , piT = 0.9: 0.5074385245901639 
+DEBUG - l = 0.09999999999999999
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.09999999999999999 , piT = 0.9: 0.5158401639344262 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.09999999999999999 , piT = 0.9: 0.5148565573770492 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.09999999999999999 , piT = 0.9: 0.5164959016393443 
+DEBUG - l = 1.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 1.0 , piT = 0.9: 0.5357991803278689 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 1.0 , piT = 0.9: 0.5348565573770492 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 1.0 , piT = 0.9: 0.5451434426229508 
+DEBUG - l = 10.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 10.0 , piT = 0.9: 0.5601844262295081 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 10.0 , piT = 0.9: 0.5579918032786886 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 10.0 , piT = 0.9: 0.5623770491803279 
+DEBUG - l = 100.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 100.0 , piT = 0.9: 0.5779508196721311 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 100.0 , piT = 0.9: 0.5735860655737706 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 100.0 , piT = 0.9: 0.5823360655737705 
+INFO - plotting
+INFO - ____________________________________________________________
+INFO - Quadratic Regression
+DEBUG - piT = 0.1
+DEBUG - l = 9.999999999999999e-05
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 9.999999999999999e-05 , piT = 0.1: 0.27524590163934426 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 9.999999999999999e-05 , piT = 0.1: 0.30709016393442623 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 9.999999999999999e-05 , piT = 0.1: 0.3102049180327869 
+DEBUG - l = 0.001
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.001 , piT = 0.1: 0.27274590163934426 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.001 , piT = 0.1: 0.3042827868852459 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.001 , piT = 0.1: 0.3086475409836066 
+DEBUG - l = 0.01
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.01 , piT = 0.1: 0.28241803278688526 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.01 , piT = 0.1: 0.30709016393442623 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.01 , piT = 0.1: 0.30459016393442623 
+DEBUG - l = 0.09999999999999999
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.09999999999999999 , piT = 0.1: 0.29364754098360657 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.09999999999999999 , piT = 0.1: 0.30489754098360655 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.09999999999999999 , piT = 0.1: 0.3158196721311476 
+DEBUG - l = 1.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 1.0 , piT = 0.1: 0.32362704918032786 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 1.0 , piT = 0.1: 0.32549180327868854 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 1.0 , piT = 0.1: 0.3367827868852459 
+DEBUG - l = 10.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 10.0 , piT = 0.1: 0.33831967213114755 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 10.0 , piT = 0.1: 0.33581967213114755 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 10.0 , piT = 0.1: 0.3417622950819672 
+DEBUG - l = 100.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 100.0 , piT = 0.1: 0.3595286885245902 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 100.0 , piT = 0.1: 0.35922131147540987 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 100.0 , piT = 0.1: 0.3579918032786885 
+INFO - plotting
+DEBUG - piT = 0.5
+DEBUG - l = 9.999999999999999e-05
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 9.999999999999999e-05 , piT = 0.5: 0.2808606557377049 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 9.999999999999999e-05 , piT = 0.5: 0.2902254098360656 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 9.999999999999999e-05 , piT = 0.5: 0.30303278688524593 
+DEBUG - l = 0.001
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.001 , piT = 0.5: 0.27961065573770494 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.001 , piT = 0.5: 0.2899180327868852 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.001 , piT = 0.5: 0.3027049180327869 
+DEBUG - l = 0.01
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.01 , piT = 0.5: 0.28237704918032785 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.01 , piT = 0.5: 0.28961065573770495 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.01 , piT = 0.5: 0.2983196721311475 
+DEBUG - l = 0.09999999999999999
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.09999999999999999 , piT = 0.5: 0.30612704918032785 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.09999999999999999 , piT = 0.5: 0.29772540983606555 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.09999999999999999 , piT = 0.5: 0.30959016393442623 
+DEBUG - l = 1.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 1.0 , piT = 0.5: 0.33049180327868855 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 1.0 , piT = 0.5: 0.3302049180327869 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 1.0 , piT = 0.5: 0.3395696721311475 
+DEBUG - l = 10.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 10.0 , piT = 0.5: 0.34672131147540985 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 10.0 , piT = 0.5: 0.3454713114754099 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 10.0 , piT = 0.5: 0.3448360655737705 
+DEBUG - l = 100.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 100.0 , piT = 0.5: 0.36577868852459017 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 100.0 , piT = 0.5: 0.36514344262295084 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 100.0 , piT = 0.5: 0.36928278688524585 
+INFO - plotting
+DEBUG - piT = 0.9
+DEBUG - l = 9.999999999999999e-05
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 9.999999999999999e-05 , piT = 0.9: 0.29301229508196724 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 9.999999999999999e-05 , piT = 0.9: 0.2992827868852459 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 9.999999999999999e-05 , piT = 0.9: 0.31643442622950824 
+DEBUG - l = 0.001
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.001 , piT = 0.9: 0.2967622950819672 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.001 , piT = 0.9: 0.2917827868852459 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.001 , piT = 0.9: 0.31706967213114756 
+DEBUG - l = 0.01
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.01 , piT = 0.9: 0.2989754098360656 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.01 , piT = 0.9: 0.3027049180327869 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.01 , piT = 0.9: 0.3282786885245902 
+DEBUG - l = 0.09999999999999999
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 0.09999999999999999 , piT = 0.9: 0.34831967213114756 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 0.09999999999999999 , piT = 0.9: 0.3298975409836066 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 0.09999999999999999 , piT = 0.9: 0.3613934426229508 
+DEBUG - l = 1.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 1.0 , piT = 0.9: 0.37549180327868853 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 1.0 , piT = 0.9: 0.36362704918032784 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 1.0 , piT = 0.9: 0.37920081967213115 
+DEBUG - l = 10.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 10.0 , piT = 0.9: 0.39459016393442625 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 10.0 , piT = 0.9: 0.38862704918032787 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 10.0 , piT = 0.9: 0.39639344262295084 
+DEBUG - l = 100.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 5 , pca = 6, l = 100.0 , piT = 0.9: 0.43200819672131147 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 5 , pca = 7, l = 100.0 , piT = 0.9: 0.4214344262295082 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 5 , pca = 0, l = 100.0 , piT = 0.9: 0.4258196721311476 
+INFO - plotting
+INFO - Elapsed time: 5736.77

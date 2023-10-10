@@ -1,0 +1,245 @@
+INFO - Starting main function on logistic regression
+INFO - Loading the dataset
+INFO - Binary Regression
+DEBUG - piT = 0.1
+DEBUG - l = 9.999999999999999e-05
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 9.999999999999999e-05 , piT = 0.1: 0.4680921052631579 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 9.999999999999999e-05 , piT = 0.1: 0.4652631578947368 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 9.999999999999999e-05 , piT = 0.1: 0.46519736842105264 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 9.999999999999999e-05 , piT = 0.1: 0.4573684210526316 
+DEBUG - l = 0.001
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 0.001 , piT = 0.1: 0.4680921052631579 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 0.001 , piT = 0.1: 0.4652631578947368 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 0.001 , piT = 0.1: 0.46519736842105264 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 0.001 , piT = 0.1: 0.4573684210526316 
+DEBUG - l = 0.01
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 0.01 , piT = 0.1: 0.4668421052631579 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 0.01 , piT = 0.1: 0.46651315789473685 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 0.01 , piT = 0.1: 0.46519736842105264 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 0.01 , piT = 0.1: 0.45611842105263156 
+DEBUG - l = 0.09999999999999999
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 0.09999999999999999 , piT = 0.1: 0.46151315789473685 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 0.09999999999999999 , piT = 0.1: 0.4652631578947368 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 0.09999999999999999 , piT = 0.1: 0.46677631578947365 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 0.09999999999999999 , piT = 0.1: 0.46019736842105263 
+DEBUG - l = 1.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 1.0 , piT = 0.1: 0.47743421052631574 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 1.0 , piT = 0.1: 0.48526315789473684 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 1.0 , piT = 0.1: 0.48559210526315794 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 1.0 , piT = 0.1: 0.4840131578947368 
+DEBUG - l = 10.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 10.0 , piT = 0.1: 0.5419078947368421 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 10.0 , piT = 0.1: 0.5540131578947368 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 10.0 , piT = 0.1: 0.549078947368421 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 10.0 , piT = 0.1: 0.5475657894736842 
+DEBUG - l = 100.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 100.0 , piT = 0.1: 0.5780263157894736 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 100.0 , piT = 0.1: 0.5730263157894737 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 100.0 , piT = 0.1: 0.5758552631578948 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 100.0 , piT = 0.1: 0.5692763157894737 
+INFO - plotting
+DEBUG - piT = 0.5
+DEBUG - l = 9.999999999999999e-05
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 9.999999999999999e-05 , piT = 0.5: 0.47118421052631576 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 9.999999999999999e-05 , piT = 0.5: 0.4815131578947368 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 9.999999999999999e-05 , piT = 0.5: 0.4830263157894737 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 9.999999999999999e-05 , piT = 0.5: 0.4698684210526316 
+DEBUG - l = 0.001
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 0.001 , piT = 0.5: 0.47118421052631576 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 0.001 , piT = 0.5: 0.4815131578947368 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 0.001 , piT = 0.5: 0.4830263157894737 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 0.001 , piT = 0.5: 0.4698684210526316 
+DEBUG - l = 0.01
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 0.01 , piT = 0.5: 0.47118421052631576 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 0.01 , piT = 0.5: 0.48026315789473684 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 0.01 , piT = 0.5: 0.4830263157894737 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 0.01 , piT = 0.5: 0.4673684210526316 
+DEBUG - l = 0.09999999999999999
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 0.09999999999999999 , piT = 0.5: 0.47276315789473683 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 0.09999999999999999 , piT = 0.5: 0.47618421052631577 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 0.09999999999999999 , piT = 0.5: 0.48427631578947367 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 0.09999999999999999 , piT = 0.5: 0.46611842105263157 
+DEBUG - l = 1.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 1.0 , piT = 0.5: 0.4909210526315789 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 1.0 , piT = 0.5: 0.4949342105263158 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 1.0 , piT = 0.5: 0.4968421052631579 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 1.0 , piT = 0.5: 0.4830263157894737 
+DEBUG - l = 10.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 10.0 , piT = 0.5: 0.5375 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 10.0 , piT = 0.5: 0.5432236842105262 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 10.0 , piT = 0.5: 0.5440131578947368 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 10.0 , piT = 0.5: 0.5359868421052632 
+DEBUG - l = 100.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 100.0 , piT = 0.5: 0.5724342105263158 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 100.0 , piT = 0.5: 0.5683552631578948 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 100.0 , piT = 0.5: 0.5667763157894736 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 100.0 , piT = 0.5: 0.5724342105263158 
+INFO - plotting
+DEBUG - piT = 0.9
+DEBUG - l = 9.999999999999999e-05
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 9.999999999999999e-05 , piT = 0.9: 0.5021052631578947 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 9.999999999999999e-05 , piT = 0.9: 0.5083552631578947 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 9.999999999999999e-05 , piT = 0.9: 0.5126973684210527 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 9.999999999999999e-05 , piT = 0.9: 0.5064473684210526 
+DEBUG - l = 0.001
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 0.001 , piT = 0.9: 0.5021052631578947 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 0.001 , piT = 0.9: 0.5083552631578947 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 0.001 , piT = 0.9: 0.5126973684210527 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 0.001 , piT = 0.9: 0.5064473684210526 
+DEBUG - l = 0.01
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 0.01 , piT = 0.9: 0.5058552631578948 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 0.01 , piT = 0.9: 0.5096052631578947 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 0.01 , piT = 0.9: 0.5115131578947368 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 0.01 , piT = 0.9: 0.5076973684210526 
+DEBUG - l = 0.09999999999999999
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 0.09999999999999999 , piT = 0.9: 0.5090131578947368 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 0.09999999999999999 , piT = 0.9: 0.50875 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 0.09999999999999999 , piT = 0.9: 0.512828947368421 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 0.09999999999999999 , piT = 0.9: 0.5124342105263158 
+DEBUG - l = 1.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 1.0 , piT = 0.9: 0.5368421052631579 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 1.0 , piT = 0.9: 0.5389473684210526 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 1.0 , piT = 0.9: 0.5401973684210526 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 1.0 , piT = 0.9: 0.5425 
+DEBUG - l = 10.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 10.0 , piT = 0.9: 0.5576973684210527 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 10.0 , piT = 0.9: 0.5551973684210527 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 10.0 , piT = 0.9: 0.5614473684210526 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 10.0 , piT = 0.9: 0.5626315789473684 
+DEBUG - l = 100.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 100.0 , piT = 0.9: 0.5777631578947369 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 100.0 , piT = 0.9: 0.5749342105263158 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 100.0 , piT = 0.9: 0.5696052631578947 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 100.0 , piT = 0.9: 0.5765131578947369 
+INFO - plotting
+INFO - ____________________________________________________________
+INFO - Quadratic Regression
+DEBUG - piT = 0.1
+DEBUG - l = 9.999999999999999e-05
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 9.999999999999999e-05 , piT = 0.1: 0.26802631578947367 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 10 , pca = 7, l = 9.999999999999999e-05 , piT = 0.1: 0.2906578947368421 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 10 , pca = 8, l = 9.999999999999999e-05 , piT = 0.1: 0.3018421052631579 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 10 , pca = 0, l = 9.999999999999999e-05 , piT = 0.1: 0.309078947368421 
+DEBUG - l = 0.001
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 10 , pca = 6, l = 0.001 , piT = 0.1: 0.26802631578947367 
+DEBUG - pca = 7
+Traceback (most recent call last):
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/run.py", line 114, in <module>
+    start = time.time()
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/run.py", line 40, in run_experiment
+    
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/main.py", line 129, in main
+    quadratic_logaristic_regression(D,L,args,logger)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/main.py", line 112, in quadratic_logaristic_regression
+    min_DCF, scores, labels = KFCV(DTR, LTR,logObj,point,args,logger)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/GaussianClassifiers/main.py", line 456, in KFCV
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/models.py", line 95, in train
+    b , w
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_lbfgsb_py.py", line 199, in fmin_l_bfgs_b
+    res = _minimize_lbfgsb(fun, x0, args=args, jac=jac, bounds=bounds,
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_lbfgsb_py.py", line 365, in _minimize_lbfgsb
+    f, g = func_and_grad(x)
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 285, in fun_and_grad
+    self._update_fun()
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 251, in _update_fun
+    self._update_fun_impl()
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 155, in update_fun
+    self.f = fun_wrapped(self.x)
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 137, in fun_wrapped
+    fx = fun(np.copy(x), *args)
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_optimize.py", line 77, in __call__
+    self._compute_if_needed(x, *args)
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_optimize.py", line 71, in _compute_if_needed
+    fg = self.fun(x, *args)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/models.py", line 65, in quad_logreg_obj
+    loss_c0 = 0
+KeyboardInterrupt
