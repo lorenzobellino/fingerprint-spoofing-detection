@@ -8,13 +8,20 @@ logger = logging.getLogger("FSD")
 
 def run_experiment(args, logger):
     if args.step == 1:
-        main_module = "LDA.main"
+        main_module = "Visualization.main"
     elif args.step == 2:
-        main_module = "PCA.main"
+        main_module = "LDA.main"
     elif args.step == 3:
-        main_module = "MGD.main"
+        main_module = "Dimensionality.main"
     elif args.step == 4:
-        main_module = "MLE.main"
+        main_module = "LDA.main"
+    elif args.step == 5:
+        main_module = "GaussianClassifiers.main"
+    elif args.step == 6:
+        main_module = "LogisticRegression.main"
+    elif args.step == 7:
+        main_module = "SVM.main"
+
     else:
         logger.error("Invalid step")
         raise NotImplementedError
@@ -35,17 +42,41 @@ if __name__ == '__main__':
         "--step",
         type=int,
         help="Step to run:\n"
-        + "\t1: LDA - Linear Discriminant Analysis\n"
-        + "\t2: PCA - Principal Component Analysis\n"
-        + "\t3: MGD - Multivariate Gaussian Density\n"
-        + "\t4: MLE - Maximum Likelihood Estimate\n",
+        + "\t1: Visualization\n"
+        + "\t2: LDA\n"
+        + "\t3: Dimensionality Reduction\n"
+        + "\t4: LDA\n"
+        + "\t5: MVG\n"
+        + "\t6: Logistic Regression\n"
+        + "\t7: SVM\n",
         required=True,
     )
     parser.add_argument(
-        "-m",
+        "-k",   
         type=int,
-        help="Number of eigenvectors to use for PCA and LDA",
-        default=4,
+        help="Number of folds for k-fold cross validation",
+        default=5,
+        required=False,
+    )
+    parser.add_argument(
+        "-m",   
+        type=int,
+        help="used for LDA ",
+        default=1,
+        required=False,
+    )
+    parser.add_argument(
+        "-pca", 
+        type=int,
+        help="number of eigenvectors to use for PCA",
+        default=6,
+        required=False,
+    )
+    parser.add_argument(
+        "-znorm",
+        type=bool,
+        help="Enable Z-Normalization",
+        default=False,
         required=False,
     )
     parser.add_argument("-d", "--debug", action="store_true", help="Enable debug mode")
