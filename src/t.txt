@@ -1,0 +1,159 @@
+INFO - Starting main function on logistic regression
+INFO - Loading the dataset
+INFO - Binary Regression
+DEBUG - piT = 0.1
+DEBUG - l = 0.01
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 0.01 , piT = 0.1: 0.4884251968503937 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 2 , pca = 7, l = 0.01 , piT = 0.1: 0.4859251968503937 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 2 , pca = 8, l = 0.01 , piT = 0.1: 0.4878018372703412 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 2 , pca = 0, l = 0.01 , piT = 0.1: 0.49155183727034124 
+DEBUG - l = 0.09999999999999999
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 0.09999999999999999 , piT = 0.1: 0.49186351706036746 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 2 , pca = 7, l = 0.09999999999999999 , piT = 0.1: 0.48936351706036746 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 2 , pca = 8, l = 0.09999999999999999 , piT = 0.1: 0.48998687664041995 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 2 , pca = 0, l = 0.09999999999999999 , piT = 0.1: 0.48717847769028866 
+DEBUG - l = 1.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 1.0 , piT = 0.1: 0.5084251968503937 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 2 , pca = 7, l = 1.0 , piT = 0.1: 0.5071751968503937 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 2 , pca = 8, l = 1.0 , piT = 0.1: 0.5106135170603675 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 2 , pca = 0, l = 1.0 , piT = 0.1: 0.4946751968503937 
+DEBUG - l = 10.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 10.0 , piT = 0.1: 0.5724737532808399 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 2 , pca = 7, l = 10.0 , piT = 0.1: 0.5724737532808399 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 2 , pca = 8, l = 10.0 , piT = 0.1: 0.5724737532808399 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 2 , pca = 0, l = 10.0 , piT = 0.1: 0.5737237532808399 
+INFO - plotting
+DEBUG - piT = 0.5
+DEBUG - l = 0.01
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 0.01 , piT = 0.5: 0.5028018372703412 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 2 , pca = 7, l = 0.01 , piT = 0.5: 0.4962401574803149 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 2 , pca = 8, l = 0.01 , piT = 0.5: 0.4962401574803149 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 2 , pca = 0, l = 0.01 , piT = 0.5: 0.5031167979002624 
+DEBUG - l = 0.09999999999999999
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 0.09999999999999999 , piT = 0.5: 0.5009251968503937 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 2 , pca = 7, l = 0.09999999999999999 , piT = 0.5: 0.4971751968503937 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 2 , pca = 8, l = 0.09999999999999999 , piT = 0.5: 0.4990518372703412 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 2 , pca = 0, l = 0.09999999999999999 , piT = 0.5: 0.49499015748031494 
+DEBUG - l = 1.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 1.0 , piT = 0.5: 0.5134219160104987 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 2 , pca = 7, l = 1.0 , piT = 0.5: 0.5115452755905512 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 2 , pca = 8, l = 1.0 , piT = 0.5: 0.5152952755905512 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 2 , pca = 0, l = 1.0 , piT = 0.5: 0.5087335958005249 
+DEBUG - l = 10.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 10.0 , piT = 0.5: 0.5477854330708661 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 2 , pca = 7, l = 10.0 , piT = 0.5: 0.5515354330708662 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 2 , pca = 8, l = 10.0 , piT = 0.5: 0.5527854330708661 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 2 , pca = 0, l = 10.0 , piT = 0.5: 0.5596719160104987 
+INFO - plotting
+DEBUG - piT = 0.9
+DEBUG - l = 0.01
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 0.01 , piT = 0.9: 0.5187368766404199 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 2 , pca = 7, l = 0.01 , piT = 0.9: 0.5171653543307086 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 2 , pca = 8, l = 0.01 , piT = 0.9: 0.5140387139107612 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 2 , pca = 0, l = 0.01 , piT = 0.9: 0.5209251968503936 
+DEBUG - l = 0.09999999999999999
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 0.09999999999999999 , piT = 0.9: 0.5249737532808398 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 2 , pca = 7, l = 0.09999999999999999 , piT = 0.9: 0.51997375328084 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 2 , pca = 8, l = 0.09999999999999999 , piT = 0.9: 0.5184186351706037 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 2 , pca = 0, l = 0.09999999999999999 , piT = 0.9: 0.5240452755905511 
+DEBUG - l = 1.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 1.0 , piT = 0.9: 0.5368602362204724 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 2 , pca = 7, l = 1.0 , piT = 0.9: 0.5393602362204725 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 2 , pca = 8, l = 1.0 , piT = 0.9: 0.5484153543307086 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 2 , pca = 0, l = 1.0 , piT = 0.9: 0.5531069553805774 
+DEBUG - l = 10.0
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 10.0 , piT = 0.9: 0.5721587926509186 
+DEBUG - pca = 7
+INFO - Log Reg min_DCF con K = 2 , pca = 7, l = 10.0 , piT = 0.9: 0.5721620734908137 
+DEBUG - pca = 8
+INFO - Log Reg min_DCF con K = 2 , pca = 8, l = 10.0 , piT = 0.9: 0.5746620734908137 
+DEBUG - pca = 0
+INFO - Log Reg min_DCF con K = 2 , pca = 0, l = 10.0 , piT = 0.9: 0.5790387139107611 
+INFO - plotting
+INFO - ____________________________________________________________
+INFO - Quadratic Regression
+DEBUG - piT = 0.1
+DEBUG - l = 1e-06
+DEBUG - pca = 6
+INFO - Log Reg min_DCF con K = 2 , pca = 6, l = 1e-06 , piT = 0.1: 0.3009251968503937 
+DEBUG - pca = 7
+Traceback (most recent call last):
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/run.py", line 114, in <module>
+    run_experiment(args, logger)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/run.py", line 40, in run_experiment
+    main(args, logger)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/main.py", line 127, in main
+    input()
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/main.py", line 110, in quadratic_logaristic_regression
+    min_DCF, scores, labels = KFCV(DTR, LTR,logObj,point,args,logger)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/GaussianClassifiers/main.py", line 456, in KFCV
+    classifier.train(DTR, LTR)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/models.py", line 95, in train
+    params,f_min,_ = sc.optimize.fmin_l_bfgs_b(self.quad_logreg_obj, x0)
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_lbfgsb_py.py", line 199, in fmin_l_bfgs_b
+    res = _minimize_lbfgsb(fun, x0, args=args, jac=jac, bounds=bounds,
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_lbfgsb_py.py", line 365, in _minimize_lbfgsb
+    f, g = func_and_grad(x)
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 285, in fun_and_grad
+    self._update_fun()
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 251, in _update_fun
+    self._update_fun_impl()
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 155, in update_fun
+    self.f = fun_wrapped(self.x)
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 137, in fun_wrapped
+    fx = fun(np.copy(x), *args)
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_optimize.py", line 77, in __call__
+    self._compute_if_needed(x, *args)
+  File "/home/mazzi/.cache/pypoetry/virtualenvs/fingerprint-spoofing-detection-qpmmPjLx-py3.9/lib/python3.9/site-packages/scipy/optimize/_optimize.py", line 71, in _compute_if_needed
+    fg = self.fun(x, *args)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/models.py", line 71, in quad_logreg_obj
+    grad = self.grad_funct(v)
+  File "/home/mazzi/github_wsl/fingerprint-spoofing-detection/src/LogisticRegression/models.py", line 26, in gradient
+    internal_term = np.dot(np.exp(-ziSi),(np.dot(-z[i],DTR[:,i])))/(1+np.exp(-ziSi))                #print(1+np.exp(-ziSi))
+  File "<__array_function__ internals>", line 200, in dot
+KeyboardInterrupt
