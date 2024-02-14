@@ -1,4 +1,5 @@
-# Fingerprint Spoofing Detection - Lorenzo Bellino 309413
+# Fingerprint Spoofing Detection 
+- Lorenzo Bellino 309413
 
 # Introduction
 ## Abstract
@@ -198,5 +199,166 @@ In the table below are reported the results for all valuse of $C$ and $K$.
 
 As we can see the best results are obtained with $C = 1$ and $K=1$
 
-## Quadratic SVM
+## Quadratic SVM - Polynomial Kernel
 As we said before, we expect quadratic SVM to perform better than linear SVM, because our data seems to be better separated by quadratic rules. We tested various values of $C$ and $K$, in particular $C = 10^{-3}, 10^{-2}, 10^{-1}, 10^{0}, 10^{2}$ and $K = 0.1, 1$. Below we can see the rusults for this tests.
+
+<p align="center">
+<img src="./plots/SVM/SVM_Poly_K0d2_c0_zfalse.png" width=300>
+<img src="./plots/SVM/SVM_Poly_K01d2_c1.png" width=300>
+<img src="./plots/SVM/SVM_Poly_K1d2_c0.png" width=300>
+<img src="./plots/SVM/SVM_Poly_K1d2_c1.png" width=300>
+</p> 
+
+
+As we can see the models without PCA and with $PCA = 6$ perform better than the other models, in particular the best results are obtained with values ov $C < 1$. The value of $K$ does not seem to affect the results a lot, only some marginal imporvements are noticeable with $K = 1$.
+
+An other options would be to apply some Z-normalization to the dataset, but as we can see from the graphs below, the results are not improved by this operation so this option is discarded.
+<p align="center">
+<img src="./plots/SVM/SVM_Poly_K0d2_c0_zfalse.png" width=300>
+<img src="./plots/SVM/SVM_Poly_K0d2_c0_ztrue.png" width=300>
+</p> 
+The image on the left is the result of the model without Z-normalization, while the image on the right is the result of the model with Z-normalization.
+
+In conclusion the best results for each combination of $C$ and $K$ are reported in the table below.
+
+|  K  |          c          | PCA | minDCF|
+|:---:|:-------------------:|:---:|:-----:|
+| 0.1 |        0        |  6  | 0.191 |
+| 0.1 |         1        |  6  | 0.175 |
+| 1 |         0       |  6  | 0.179 |
+| 1 |         1        |  6  | 0.172 |
+
+
+## Quadratic SVM - RBF Kernel
+As we said before, we expect quadratic SVM to perform better than linear SVM, because our data seems to be better separated by quadratic rules. 
+We tested different values of $gamma$ for the RBF kernel, in particular $gamma = 10^{-3}, 10^{-2}, 10^{-1}, 10^{0}, 10^{2}$ and $C = 10^{-3}, 10^{-2}, 10^{-1}, 10^{0}, 10^{2}$ and $K = 0.1$ and $K = 1$.
+
+### K = 0.1 and PCA = 0,6,7
+
+<p align="center">
+<img src="./plots/SVM/SVM_RBF_K0_PCA0.png" width=200>
+<img src="./plots/SVM/SVM_RBF_K0_PCA6.png" width=200>
+<img src="./plots/SVM/SVM_RBF_K0_PCA7.png" width=200>
+</p> 
+
+we can see some small improvement using PCA. The best results are obtained with $PCA = 6$ and $gamma = 10^{-1}$.
+
+### K = 1 and PCA = 0,6,7
+<p align="center">
+<img src="./plots/SVM/SVM_RBF_K1_PCA0.png" width=200>
+<img src="./plots/SVM/SVM_RBF_K1_PCA6.png" width=200>
+<img src="./plots/SVM/SVM_RBF_K1_PCA7.png" width=200>
+</p> 
+
+Again PCA seems to improve the results, in particular the best results are obtained with $PCA = 6$ and $gamma = 10^{-1}$.
+
+The Best results are reported below.
+
+|  K  |          c  |gamma| PCA | minDCF|
+|:---:|:-------------|:--:|:------:|:---:|
+| 0.1 |        1    | 0.1    |  6  | 0.172 |
+
+
+## Gaussian Mixture Model - GMM
+
+The last type of classifier is the Gaussian Mixture Model. This assumes that it is more convinient to represent the data with gaussian distributions with multiple components.
+Considering previous results with MVG and Naive Bayes we expect some correlations between classes but since MVG and NB results were comparable GMM can be expected to perfor good as well.
+The problem is approaced by trying different combinations of model and component for non-target class and target class. In particular:
+- $1,2$ components for target class Authentic
+-  $2,4,8$ components for non-target Spoofed
+
+We know that Spoofed samples are distributed into 6 different sub-classes, so we expected more opti-
+mistic results when representing Spoofed fingerprints with a higher number of components. We then
+tried to configure our model trying with all the combinations of the Full-covariance model, Diagonal-
+covariance model and Tied Full-covariance model for both Target-class and Non-Target class. Because
+not so useful during the previous analysis, we did not apply the Z-norm for the GMM models.
+below are some of the most interesting results.
+
+
+<p align="center">
+<img src="./plots/GMM/GMM_t_diag_nt_diag_PCA0_tmn1.png" width=300>
+<img src="./plots/GMM/GMM_t_diag_nt_diag_PCA0_tmn2.png" width=300>
+<img src="./plots/GMM/GMM_t_diag_nt_diag_PCA6_tmn1.png" width=300>
+<img src="./plots/GMM/GMM_t_diag_nt_diag_PCA6_tmn2.png" width=300>
+<img src="./plots/GMM/GMM_t_diag_nt_full_PCA6_tmn1.png" width=300>
+<img src="./plots/GMM/GMM_t_diag_nt_full_PCA6_tmn2.png" width=300>
+<img src="./plots/GMM/GMM_t_diag_nt_tied_PCA6_tmn1.png" width=300>
+<img src="./plots/GMM/GMM_t_diag_nt_tied_PCA6_tmn2.png" width=300>
+<img src="./plots/GMM/GMM_t_full_nt_tied_PCA0_tmn1.png" width=300>
+</p> 
+
+
+So we reported some of the most iconic plots. Among some of them, you can find some of the lowest DCF values. It is interesting to note that the best results are obtained by applying 8 components to the non-target class, which confirms what was previously assumed about the Spoofed Fingerprint distribution over several sub-classes. In addition, performance is better for the number of components equal to 2 for the target class. A value however low enough to confirm the analysis at the beginning of the report about the Gaussian distribution of Authentic samples. The same can be said when you notice that the best performance is obtained for the configuration with Diag Cov for both classes.
+Only the absence of PCA for the best configuration deviates from what has been stated so far. We decided to report just the results for the best configurations, so the cases with Target class samples represented by a Diagonal Covariance Gaussian
+
+In the graphs above it can be seen that the best results are obtained with with the configuration of Diagonal Covariance applied to both **target** and **non-target** classes and with 8 components for the non-target class and 2 components for the target class. This is consistent with the results that we have seen so far.
+
+
+ ## Calibration
+ To evaluate the different models, so far we have used only the minimum cost of detection (minDCF), which however depends on a threshold. To understand if the threshold is the theoretical one, we will use a metric called actual DCF (actDCF). The method that we will adopt is based on Logistic Regression, which works like a relation of verisimilitude to posterior, so we can obtain the calibrated score by simply subtracting the theoretical threshold. To estimate the parameters of the calibration
+function, we will use a K-Fold approach, since the number of samples we have is limited. 
+
+We take just the best 3 models to calibrate : 
+- GMM Target Mode=DiagCov e Non-Target Mode=DiagCov (2,8), PCA=6
+- Quadratic Logistic Rregression lambda = 10-2, PCA = 6, piT = 0.1
+- SVM with kernel RBF, KSVM = 1, gamma = 10-3, C = 10, PCA = 6, piT = 0.1
+
+
+#### Quadratic Logistic Regression Non-Calibrated vs Calibrated
+<p align="center">
+<img src="./plots/calibration/quad_LR_non_Cal.png" width=300>
+<img src="./plots/calibration/quad_LR_Cal.png" width=300>
+</p> 
+
+#### SVM with RBF Kernel Non-Calibrated vs Calibrated
+<p align="center">
+<img src="./plots/calibration/SVM_RBF_non_C.png" width=300>
+<img src="./plots/calibration/SVM_RBF_C.png" width=300>
+</p>
+
+#### GMM Non-Calibrated vs Calibrated
+<p align="center">
+<img src="./plots/calibration/GMM_non_C.png" width=300>
+<img src="./plots/calibration/GMM_C.png" width=300>
+</p>
+
+
+## Evaluation
+Now it is time for the avaluation phase of this experiment. the tests will be performed on the 3 best models previously described.
+The training and the test will be performed not on K-fold but directly on the Test set and Training set.
+
+#### Logistic Regression
+
+<p align="center">
+<img src="./plots/evaluation/log-reg.png" width=500>
+</p>
+
+From the plot above we can see that the values of DCF are sligthly different but the trends of the models are very similar.
+
+
+#### SVM with RBF Kernel
+In this phase, we check that with RBF kernel we have the same results that in the validation’s phase. The value of $K$ is fixed to 1, changing $γ$ values in order to choose the best hyperpa-rameter.
+
+<p align="center">
+<img src="./plots/evaluation/SVM-RBF-g-4.png" width=300>
+<img src="./plots/evaluation/SVM-RBF-g-3.png" width=300>
+<img src="./plots/evaluation/SVM-RBF-g-2.png" width=300>
+</p>
+
+Again the results seems to be consistent and the best results are obtained with $γ = 10^{-3}$ and $C = 10$ and with $PCA = 6$.
+
+#### Gaussian Mixture Model
+The last model to be considered is the Gaussian Mixture Model. We will use the same configuration as in the validation phase, so the best configuration is with Target Mode = Diag (2/8).
+
+<p align="center">
+<img src="./plots/evaluation/GMM-full-full-nt1.png" width=300>
+<img src="./plots/evaluation/GMM-full-full-nt2.png" width=300>
+<img src="./plots/evaluation/GMM-diag-full-nt2.png" width=300>
+<img src="./plots/evaluation/GMM-diag-diag-nt2.png" width=300>
+</p>
+
+We can notice some small differences compared to what we saw during the validation phase. In general, however, the trends of the models are very close to what was previously seen and predicted. 
+
+## Conclusions
+In general the results obtained during the Evaluation phase are similar to the ones obtained during the Validation phase. This means that the models are consistent and that the results are reliable. The best results are obtained with the GMM model, in particular with the configuration of Diagonal Covariance applied to both **target** and **non-target** classes and with 8 components for the non-target class and 2 components for the target class. This is consistent with the results that we have seen so far. The other models also performed well, in particular the SVM with RBF kernel and the Quadratic Logistic Regression. The calibration phase also confirmed the reliability of the models and the consistency of the results.
+

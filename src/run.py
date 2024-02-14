@@ -6,6 +6,7 @@ from argparse import RawTextHelpFormatter
 
 logger = logging.getLogger("FSD")
 
+
 def run_experiment(args, logger):
     if args.step == 1:
         main_module = "Visualization.main"
@@ -21,16 +22,19 @@ def run_experiment(args, logger):
         main_module = "LogisticRegression.main"
     elif args.step == 7:
         main_module = "SVM.main"
+    elif args.step == 8:
+        main_module = "GMM.main"
 
     else:
         logger.error("Invalid step")
         raise NotImplementedError
-   
+
     main = getattr(importlib.import_module(main_module), "main")
     main(args, logger)
 
-if __name__ == '__main__':
-    
+
+if __name__ == "__main__":
+
     parser = argparse.ArgumentParser(
         prog="Fingerprint Spoofing Detection",
         description="Based on the choosen step the program will perform different actions.",
@@ -48,25 +52,26 @@ if __name__ == '__main__':
         + "\t4: LDA\n"
         + "\t5: MVG\n"
         + "\t6: Logistic Regression\n"
-        + "\t7: SVM\n",
+        + "\t7: SVM\n"
+        + "\t8: GMM\n",
         required=True,
     )
     parser.add_argument(
-        "-k",   
+        "-k",
         type=int,
         help="Number of folds for k-fold cross validation",
         default=5,
         required=False,
     )
     parser.add_argument(
-        "-m",   
+        "-m",
         type=int,
         help="used for LDA ",
         default=1,
         required=False,
     )
     parser.add_argument(
-        "-pca", 
+        "-pca",
         type=int,
         help="number of eigenvectors to use for PCA",
         default=6,
